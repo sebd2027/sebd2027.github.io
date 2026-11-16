@@ -34,7 +34,7 @@ Elemento distintivo, usato in un solo posto: le "tessere", piccoli quadrati ispi
 
 ## Regole tecniche
 
-- Il sito viene servito sia da `https://<utente>.github.io/sebd2027/` sia da `https://sebd2027.icar.cnr.it/`: link interni, immagini e asset passano sempre da `import.meta.env.BASE_URL`, mai percorsi assoluti scritti a mano.
+- Il sito viene servito sia da `https://sebd2027.github.io/` sia da `https://sebd2027.icar.cnr.it/`: link interni, immagini e asset passano sempre da `import.meta.env.BASE_URL`, mai percorsi assoluti scritti a mano.
 - Nessuna richiesta a server esterni: niente CDN, Google Fonts, Google Maps embed, analytics o script di terze parti (così non serve un banner cookie). Mappa = link "Get directions" a Google Maps o OpenStreetMap. Icone Material Symbols come SVG inline, solo quelle usate.
 - Immagini in `src/assets/`, ottimizzate con `<Image />` di `astro:assets`, sempre con `alt` descrittivo e credito fotografico visibile. Usare solo foto proprie, concesse dall'hotel o con licenza aperta (es. Wikimedia Commons) e attribuzione.
 - Accessibilità: contrasto WCAG AA, focus da tastiera visibile, drawer navigabile da tastiera, `prefers-reduced-motion` rispettato, `lang="en"`.
